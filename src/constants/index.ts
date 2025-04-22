@@ -43,11 +43,7 @@ export const NAV_LINKS = [
     title: "About",
     link: null,
   },
-  {
-    id: "work",
-    title: "Work",
-    link: null,
-  },
+
   {
     id: "contact",
     title: "Contact",
@@ -196,138 +192,119 @@ export const EXPERIENCES = [
 
 // Projects
 export const PROJECTS = [
-  {
-    name: "Disney+ Clone",
-    description:
-      "Disney+ is one of the biggest streaming platforms used by millions of people world-wide and allows us to stream high quality content in 4k and various other formats",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "firebase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: project1,
-    source_code_link: "https://github.com/sanidhyy/disney-clone",
-    live_site_link: "https://clonedisneyplus.web.app/",
-  },
-  {
-    name: "Golds Gym",
-    description:
-      "Web application that enables users to search for fitness exercises, effective personalized positions, and recommends new exercises based on their personal preferences.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "rapidapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwindcss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: project2,
-    source_code_link: "https://github.com/sanidhyy/fitness-app",
-    live_site_link: "https://fitness-gym-react.netlify.app/",
-  },
-  {
-    name: "Shoppy",
-    description:
-      "The most personalised admin dashboard web application that allows enables users to choose customized themes and dark mode with different pages and variety of charts.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "syncfusion",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: project3,
-    source_code_link: "https://github.com/sanidhyy/admin-dashboard",
-    live_site_link: "https://shoppy-dashboard-react.netlify.app/",
-  },
-  {
-    name: "TikTok Clone",
-    description:
-      "A Next JS Web Application that enables users to upload videos of any length and size, create accounts and connect with other people just like any other social media.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "nodejs",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwindcss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: project4,
-    source_code_link: "https://github.com/sanidhyy/tiktok-clone",
-    live_site_link: "https://tiktok-clone-react.vercel.app/",
-  },
-  {
-    name: "Cryptoverse",
-    description:
-      "Best Cryptocurrency web application that allows users to view price, market cap and daily change in realtime for almost every cryptocurrency in the world.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "rapidapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: project5,
-    source_code_link: "https://github.com/sanidhyy/crypto-app",
-    live_site_link: "https://reactjscryptoapp.netlify.app/",
-  },
-  {
-    name: "Travel Advisor",
-    description:
-      "Web application that enables you to view your nearby restaurants, hotels and attractions which can be sorted by ratings, price and much more.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "rapidapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "material-ui",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: project6,
-    source_code_link: "https://github.com/sanidhyy/travel-advisor",
-    live_site_link: "https://travel-advisor-reactjs.netlify.app/",
-  },
+  // {
+  //   name: "Disney+ Clone",
+  //   description:
+  //     "Disney+ is one of the biggest streaming platforms used by millions of people world-wide and allows us to stream high quality content in 4k and various other formats",
+  //   tags: [
+  //     {
+  //       name: "react",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "firebase",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "css",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: project1,
+  //   source_code_link: "https://github.com/sanidhyy/disney-clone",
+  //   live_site_link: "https://clonedisneyplus.web.app/",
+  // },
+  // {
+  //   name: "Golds Gym",
+  //   description:
+  //     "Web application that enables users to search for fitness exercises, effective personalized positions, and recommends new exercises based on their personal preferences.",
+  //   tags: [
+  //     {
+  //       name: "react",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "rapidapi",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "tailwindcss",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: project2,
+  //   source_code_link: "https://github.com/sanidhyy/fitness-app",
+  //   live_site_link: "https://fitness-gym-react.netlify.app/",
+  // },
+  // {
+  //   name: "Shoppy",
+  //   description:
+  //     "The most personalised admin dashboard web application that allows enables users to choose customized themes and dark mode with different pages and variety of charts.",
+  //   tags: [
+  //     {
+  //       name: "react",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "syncfusion",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "scss",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: project3,
+  //   source_code_link: "https://github.com/sanidhyy/admin-dashboard",
+  //   live_site_link: "https://shoppy-dashboard-react.netlify.app/",
+  // },
+  
+    {
+      name: "OnlineCommSim",
+      description:
+        "A C++ and DSA-based simulation of an online communication app that mimics core functionalities such as user registration, message transmission using queues, chat history using linked lists, and network graph traversal using BFS/DFS algorithms.",
+      tags: [
+        {
+          name: "cpp",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "data structures",
+          color: "green-text-gradient",
+        },
+        {
+          name: "algorithms",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: project4, // Replace this with an appropriate placeholder or graphic
+      source_code_link: "https://github.com/Kathula Sandeep/OnlineCommSim",
+      live_site_link: "", // Leave empty or add a demo video link (e.g., YouTube or Google Drive)
+    },
+    
+    {
+      name: "WeatherVerse",
+      description:
+        "A sleek and responsive weather application built with React. It fetches real-time weather data from APIs, allows users to search for cities, and provides features like temperature, humidity, wind speed, and 5-day forecasts with a clean UI and dark mode support.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "api",
+          color: "green-text-gradient",
+        },
+        {
+          name: "tailwindcss",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: project6, // replace this with your weather app screenshot or image import
+      source_code_link: "https://github.com/Kathula-Sandeep/WeatherVerse",
+      live_site_link: "https://weather-dashboard-beryl-two.vercel.app/",
+    },
+    
 ] as const;
 
 export const SOCIALS = [

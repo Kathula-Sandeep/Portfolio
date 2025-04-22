@@ -2,20 +2,20 @@ import React from 'react';
 
 const certificates = [
   {
-    title: "Ethical Hacking Essentials",
-    issuer: "EC-Council",
+    title: "Data Structures and Algoritms Using c++",
+    issuer: "Udemy",
     image: "/certificates/user1.png", // place your image in public/certificates
     link: "https://example.com/ethical-hacking-certificate",
   },
   {
-    title: "Network Security Fundamentals",
-    issuer: "Cisco Networking Academy",
+    title: "Message Simulation Using c++",
+    issuer: "Cipher School",
     image: "/certificates/user2.png",
     link: "https://example.com/network-security-certificate",
   },
   {
-    title: "Web Application Security",
-    issuer: "Coursera",
+    title: "Data Structures using c++",
+    issuer: "CipherSchool",
     image: "/certificates/user3.png",
     link: "https://example.com/web-app-security-certificate",
   },
