@@ -14,6 +14,7 @@ import {
 import Banner from "./components/banner";
 import Footer from "./components/footer";
 import Certificates from "./components/Certificates";
+import ResumeDownload from "./components/ResumeDownload";
 
 // App
 const App = () => {
@@ -36,6 +37,7 @@ const App = () => {
         <div className="relative z-0">
           <Contact />
           <StarsCanvas />
+        <ResumeDownload />
         </div>
         <Footer />
       </div>
